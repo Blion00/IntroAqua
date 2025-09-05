@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack -p 3000",
+    "dev": "next dev -p 3000",
     "build": "next build",
     "start": "next start -p 3000",
     "lint": "next lint"
@@ -11,6 +11,8 @@
   "dependencies": {
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-slot": "^1.2.3",
+    "@tailwindcss/postcss": "^4.1.13",
+    "autoprefixer": "^10.4.21",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.542.0",
